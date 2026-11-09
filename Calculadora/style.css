@@ -1,9 +1,27 @@
-.grid-container {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator-container {
+    border: 5px, solid, black;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px;
+}
+
+.calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 3 colunas iguais */
     gap: 3px; /* espaço entre os itens */
-  }
+}
 
-  button.zero {
+button.zero {
     grid-column: span 3;
-  }
+}
+
+.calculator-display {
+    padding: 30px;
+}
