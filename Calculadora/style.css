@@ -23,5 +23,8 @@ button.zero {
 }
 
 .calculator-display {
+    background-color: gray;
+    border-radius: 10px;
     padding: 30px;
+    margin-bottom: 5px;
 }
